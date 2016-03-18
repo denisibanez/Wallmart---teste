@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**home**/
+.topo-info {
+  height: 45px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.cel, .links {
+  border-right: 1px solid #eeeeee;
+  display: inline-block;
+  line-height: 45px;
+  margin-bottom: -5px;
+}
+
+.desc {
+  line-height: 45px;
+}
+.desc a {
+  color: #000000;
+}
+.desc a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+.desc span {
+  color: red;
+  padding-right: 10px;
+}
+
+.links {
+  border-left: 1px solid #eeeeee;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.links a {
+  color: #000000;
+}
+.links a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigation {
+  height: 50px;
+  line-height: 50px;
+}
+
+.navbar-direito {
+  float: right;
+}
+
+nav a {
+  color: #000000;
+}
+nav a:hover {
+  color: #000000;
+}
+
+.line {
+  border-bottom: 1px solid #eeeeee;
+}
+
+#breadcrumb {
+  background: #f5f5f5;
+  height: 40px;
+}
+#breadcrumb a {
+  color: #000000;
+}
+#breadcrumb a:hover {
+  text-decoration: none;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.product-list-img {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  width: 82px;
+  margin: 0 15px 0 0;
+  overflow: hidden;
+}
+
+.product-list-item {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  width: 21.875em;
+}
+
+.cont-right {
+  float: right;
+}
+
+.mg {
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #1a75ce;
+  height: 280px;
+  margin-top: 50px;
+  padding-top: 25px;
+  color: #ffffff;
+}
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #79BBFC;
+  text-decoration: none;
+}
+footer h4 {
+  font-weight: bold;
+  font-size: 25px;
+}
+footer ul {
+  list-style: circle;
+  color: #79BBFC;
+}
+
+.menu-final ul {
+  list-style: none;
+  padding-top: 15px;
+}
+.menu-final ul li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #1a75ce;
+}
+
+.navbar-default {
+  background-color: #ffffff !important;
+  border-color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/**responsivo**/
+@media (max-width: 767px) {
+  .resp-767 {
+    display: none;
+  }
+
+  .cel, .links {
+    border-right: none;
+  }
+
+  .navbar-default {
+    background-color: #eeeeee !important;
+    border-color: #eeeeee;
+  }
+
+  .line {
+    background-color: #eeeeee;
+  }
+
+  #breadcrumb {
+    background-color: #1a75ce;
+  }
+
+  .breadcrumb {
+    background-color: #1a75ce;
+  }
+
+  .breadcrumb-a {
+    color: #ffffff !important;
+  }
+
+  footer {
+    height: 700px;
+  }
+
+  .menu-final {
+    text-align: center;
+  }
+
+  .navbar-direito {
+    float: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  footer {
+    height: 350px;
+  }
+}
+/**perfil*/
+.perfil-topo {
+  height: 80px;
+  margin-top: 25px;
+  background-color: #f5f5f5;
+  padding: 15px 0px 0px 25px;
+}
+
+.glyphicon-user, .glyphicon-plus {
+  font-size: 20px !important;
+  background-color: #cccccc;
+  border-radius: 500px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 13px;
+}
+
+.info-perfil {
+  float: right;
+  padding-right: 60px;
+  padding-top: 5px;
+}
+.info-perfil a {
+  margin-bottom: 15px;
+}
+
+.lista-perfil ul {
+  list-style: none;
+}
+.lista-perfil ul li {
+  border-top: 1px solid #cccccc;
+  line-height: 50px;
+  background-color: #f5f5f5;
+  height: 50px;
+  padding-left: 25px;
+}
+.lista-perfil ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.miolo-pedidos {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  color: #cccccc;
+}
+
+.content-ped {
+  background-color: #f5f5f5;
+  height: 380px;
+  margin-top: 25px;
+  padding: 15px 15px 15px 15px;
+}
+
+.texto-ped {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #000000;
+}
+
+.btn-pedidos {
+  margin-top: 20px;
+}
+
+.btn-procurar {
+  background-color: #337ab7;
+  height: 50px;
+  text-align: center;
+}
+
+.miolo-enderecos {
+  font-size: 14px;
+  color: #000000;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.end {
+  border: 1px solid #cccccc;
+  min-height: 172px;
+}
+
+.line-top {
+  border-top: 1px solid #cccccc;
+  padding: 0 !important;
+}
+
+.line-dotted {
+  text-align: center;
+  min-height: 172px;
+  border: 3px dotted #cccccc;
+}
+
+.glyphicon-plus {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
